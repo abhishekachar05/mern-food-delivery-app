@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(10%,80px);
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar .profile{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.logout-btn {
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(255,107,53,0.3);
+}
+
+.logout-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255,107,53,0.45);
+}
